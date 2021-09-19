@@ -4,10 +4,10 @@ const FILES_TO_CACHE = [
   '/',
   '/index.html',
   '/manifest.webmanifest',
-  '/public/styles.css',
-  '/public/index.js',
-  '/public/icons/icon-192x192.png',
-  '/public/icons/icon-512x512.png',
+  '/styles.css',
+  'index.js',
+  'icons/icon-192x192.png',
+  'icons/icon-512x512.png',
 ];
 
 self.addEventListener('install', function(event) {
